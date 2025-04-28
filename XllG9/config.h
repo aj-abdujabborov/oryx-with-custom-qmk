@@ -16,8 +16,9 @@
 #define MOUSEKEY_WHEEL_MAX_SPEED 1
 
 #define USB_POLLING_INTERVAL_MS 10
-#define SERIAL_NUMBER "XllG9/OaDDK3"
+#define SERIAL_NUMBER "XllG9/aNePEo"
 #define LAYER_STATE_16BIT
+#define COMBO_COUNT 1
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
 
 #define RGB_MATRIX_STARTUP_SPD 60
